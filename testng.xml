@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <test verbose="2" preserve-order="true" name="C:/Users/PRAVEENA/IdeaProjects/web-testing">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.webTest.testCases.LoginDDT"/>
+            <class name="com.webTest.testCases.AddCustomerTest"/>
+            <class name="com.webTest.testCases.EditCustomerTest"/>
+            <class name="com.webTest.testCases.DeleteCustomerTest"/>
+        </classes>
+    </test>
+</suite>

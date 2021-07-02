@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <test thread-count="5" name="C:/Users/PRAVEENA/IdeaProjects/web-testing(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.webTest.testCases.DeleteCustomerTest">
+        <methods>
+          <include name="DeleteCustomer"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.webTest.testCases.DeleteCustomerTest -->
+    </classes>
+  </test> <!-- C:/Users/PRAVEENA/IdeaProjects/web-testing(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
